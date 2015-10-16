@@ -3,3 +3,14 @@ Respuestas a las preguntas de la práctica 3
 1.	¿Cuál es el propósito de trabajar con mútliples ramas?
 
 	Uno de los puntos más fuertes de Git es su sistema de ramificaciones. La forma en la que Git maneja las ramificaciones es increíblemente rápida, haciendo así de las operaciones de ramificación algo casi instantáneo, al igual que el avance o el retroceso entre distintas ramas. Git promueve un ciclo de desarrollo donde las ramas se crean y se unen ramas entre sí, esta opción te proporciona una poderosa herramienta que cambia la forma en la que se desarrolla.
+
+2.	 ¿Qué es una reorganización (rebase)?
+
+	Una forma de reorganizar el trabajo es con el comando git rebase, con él puedes coger todos los cambios confirmados en una rama, y reaplicarlos sobre otra. Haciendo que Git: vaya al ancestro común de ambas ramas (donde estás actualmente y de donde quieres reorganizar), saque las diferencias introducidas por cada confirmación en la rama donde estás, guarde esas diferencias en archivos temporales, reinicie (reset) la rama actual hasta llevarla a la misma confirmación en la rama de donde quieres reorganizar, y, finalmente, vuelva a aplicar ordenadamente los cambios. En este momento, puedes volver a la rama master y hacer una fusión
+
+
+/***********
+BIBLIOGRAFÍA
+/***********
+
+http://www.git-scm.com/doc
