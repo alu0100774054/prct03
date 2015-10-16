@@ -8,6 +8,9 @@ Respuestas a las preguntas de la práctica 3
 
 	Una forma de reorganizar el trabajo es con el comando git rebase, con él puedes coger todos los cambios confirmados en una rama, y reaplicarlos sobre otra. Haciendo que Git: vaya al ancestro común de ambas ramas (donde estás actualmente y de donde quieres reorganizar), saque las diferencias introducidas por cada confirmación en la rama donde estás, guarde esas diferencias en archivos temporales, reinicie (reset) la rama actual hasta llevarla a la misma confirmación en la rama de donde quieres reorganizar, y, finalmente, vuelva a aplicar ordenadamente los cambios. En este momento, puedes volver a la rama master y hacer una fusión
 
+3.	 ¿Cuál es la ventaja de reorganizar (rebase)?
+
+	La ventaja de reorganizar reside en realizar tareas de limpieza y organizar confirmaciones de cambio antes de enviarlas, y si únicamente reorganizas confirmaciones que nunca han sido públicas. 
 
 /***********
 BIBLIOGRAFÍA
